@@ -43,7 +43,7 @@ function Projects() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4">
              <img
-               src="/movie/m1.jpeg"
+               src={"/movie/m1.jpeg"}
            
               alt="Moviez Project Screenshot 1"
               className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
