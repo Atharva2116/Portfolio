@@ -50,22 +50,22 @@ function Projects() {
                />
 
               <img
-                src="src/images/movie/m2.jpeg"
+                src="/public/movie/m2.jpeg"
                 alt="Moviez Project Screenshot 2"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/movie/m2.jpeg')}
+                onClick={() => handleImageClick('/public/movie/m2.jpeg')}
               />
               <img
                 src="src/images/movie/m3.jpeg"
                 alt="Moviez Project Screenshot 3"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/movie/m3.jpeg')}
+                onClick={() => handleImageClick('/public/movie/m3.jpeg')}
               />
               <img
                 src="src/images/movie/m4.jpeg"
                 alt="Moviez Project Screenshot 4"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/movie/m4.jpeg')}
+                onClick={() => handleImageClick('/public/movie/m4.jpeg')}
               />
               {isModalOpen && (
                 <ImageModal
