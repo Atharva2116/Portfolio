@@ -1,5 +1,5 @@
 .hero-background {
-  background-image: url("../../images/bg.png");
+  background-image: url("../../images/bg.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* This ensures the section takes full screen height */
