@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import "boxicons";
 import "./css/projects.css";
 import ImageModal from './modal/ImageModal';
+import m1 from '/src/images/movie/m1.jpeg';
+
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
@@ -42,7 +44,7 @@ function Projects() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4">
               <img
-                src="/src/images/movie/m1.jpeg"
+                src={m1}
                 alt="Moviez Project Screenshot 1"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
                 onClick={() => handleImageClick('/src/images/m1.jpeg')}
