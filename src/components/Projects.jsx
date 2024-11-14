@@ -44,10 +44,10 @@ function Projects() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4">
              <img
-  src="/images/movie/m1.jpeg"
+  src="../images/movie/m1.jpeg"
   alt="Moviez Project Screenshot 1"
   className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-  onClick={() => handleImageClick('/images/movie/m1.jpeg')}
+  onClick={() => handleImageClick('../images/movie/m1.jpeg')}
 />
 
               <img
