@@ -50,10 +50,10 @@ function Projects() {
 />
 
               <img
-                src="src/images/movie/m2.jpeg"
+                src="../images/movie/m2.jpeg"
                 alt="Moviez Project Screenshot 2"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/movie/m2.jpeg')}
+                onClick={() => handleImageClick('../images/movie/m2.jpeg')}
               />
               <img
                 src="src/images/movie/m3.jpeg"
