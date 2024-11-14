@@ -43,30 +43,30 @@ function Projects() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4">
              <img
-               src={m1 }
+               src="/movie/m1.jpeg"
            
               alt="Moviez Project Screenshot 1"
               className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-              onClick={() => handleImageClick(m1)}
+              onClick={() => handleImageClick('/movie/m1.jpeg')}
                />
 
               <img
-                src="/public/movie/m2.jpeg"
+                src="/movie/m2.jpeg"
                 alt="Moviez Project Screenshot 2"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/public/movie/m2.jpeg')}
+                onClick={() => handleImageClick('/movie/m2.jpeg')}
               />
               <img
-                src="/public/movie/m3.jpeg"
+                src="/movie/m3.jpeg"
                 alt="Moviez Project Screenshot 3"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/public/movie/m3.jpeg')}
+                onClick={() => handleImageClick('/movie/m3.jpeg')}
               />
               <img
-                src="/public/movie/m4.jpeg"
+                src="/movie/m4.jpeg"
                 alt="Moviez Project Screenshot 4"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/public/movie/m4.jpeg')}
+                onClick={() => handleImageClick('/movie/m4.jpeg')}
               />
               {isModalOpen && (
                 <ImageModal
