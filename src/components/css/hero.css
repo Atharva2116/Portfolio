@@ -1,0 +1,10 @@
+.hero-background {
+  background-image: url("../../images/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* This ensures the section takes full screen height */
+}
+.conte{
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem #0aefdc);
+}
