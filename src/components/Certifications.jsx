@@ -16,27 +16,27 @@ function Certifications() {
         <h2 className="text-4xl font-bold mb-6">Certifications</h2>
         <ul className="list-disc list-inside">
           <li>
-            <a href="#" onClick={() => openCertificate('/src/images/certificate/Certificate of CPP Course of  Atharva Devidas Dandgawhal_page-0001.jpg')}>
+            <a href="#" onClick={() => openCertificate('/certificate/Certificate of CPP Course of  Atharva Devidas Dandgawhal_page-0001.jpg')}>
               C++ crash course
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => openCertificate('/src/images/certificate/React certificate (1)_page-0001.jpg')}>
+            <a href="#" onClick={() => openCertificate('/certificate/React certificate (1)_page-0001.jpg')}>
               React JS - Complete frontend web development guide (Udemy)
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => openCertificate('/src/images/certificate/sql_certifcate (1)_page-0001.jpg')}>
+            <a href="#" onClick={() => openCertificate('/certificate/sql_certifcate (1)_page-0001.jpg')}>
               SQL Complete Bootcamp (Udemy)
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => openCertificate('/src/images/certificate/ML CERTIFICATION_page-0001.jpg')}>
+            <a href="#" onClick={() => openCertificate('/certificate/ML CERTIFICATION_page-0001.jpg')}>
               Data Science and Machine Learning (Udemy)
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => openCertificate('/src/images/certificate/Mindluster_Certificate_mongodb_page-0001.jpg')}>
+            <a href="#" onClick={() => openCertificate('/certificate/Mindluster_Certificate_mongodb_page-0001.jpg')}>
               MongoDB (Mindluster)
             </a>
           </li>
