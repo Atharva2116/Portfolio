@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "boxicons";
 import "./css/projects.css";
 import ImageModal from './modal/ImageModal';
-import m1 from "../images/movie/m1.jpeg"
+
 
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
