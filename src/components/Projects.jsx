@@ -28,7 +28,6 @@ function Projects() {
                 <box-icon
                   name="react"
                   type="logo"
-
                   rotate="90"
                 ></box-icon>
               </span>
@@ -44,29 +43,29 @@ function Projects() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4">
              <img
-  src="../images/movie/m1.jpeg"
+  src="src/images/movie/m1.jpeg"
   alt="Moviez Project Screenshot 1"
   className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-  onClick={() => handleImageClick('../images/movie/m1.jpeg')}
+  onClick={() => handleImageClick('src/images/movie/m1.jpeg')}
 />
 
               <img
-                src="/src/images/movie/m2.jpeg"
+                src="src/images/movie/m2.jpeg"
                 alt="Moviez Project Screenshot 2"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m2.jpeg')}
+                onClick={() => handleImageClick('src/images/movie/m2.jpeg')}
               />
               <img
-                src="/src/images/movie/m3.jpeg"
+                src="src/images/movie/m3.jpeg"
                 alt="Moviez Project Screenshot 3"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m3.jpeg')}
+                onClick={() => handleImageClick('src/images/movie/m3.jpeg')}
               />
               <img
-                src="/src/images/movie/m4.jpeg"
+                src="src/images/movie/m4.jpeg"
                 alt="Moviez Project Screenshot 4"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m4.jpeg')}
+                onClick={() => handleImageClick('src/images/movie/m4.jpeg')}
               />
               {isModalOpen && (
                 <ImageModal
@@ -82,8 +81,6 @@ function Projects() {
 
             <p className="text-gray-700 font-light">
               Created a comprehensive web application for a restaurant, enabling users to view menu items and book seats online. The app includes an efficient seat reservation system to streamline booking, enhancing both user experience and operational efficiency for the restaurant.
-
-
             </p>
             <p>
               Tech Stack:
@@ -92,7 +89,6 @@ function Projects() {
                   name="react"
                   type="logo"
                   flip="horizontal"
-
                 ></box-icon>
               </span>
               {" ReactJS ,"}
@@ -105,7 +101,6 @@ function Projects() {
                 <box-icon
                   name="mongodb"
                   type="logo"
-
                   flip="horizontal"
                 ></box-icon>
                 {/* MongoDB icon */}
@@ -114,28 +109,28 @@ function Projects() {
             </p>
             <div className=" mt-6 grid grid-cols-2 gap-4">
               <img
-                src="/src/images/resturant/home.png"
+                src="src/images/resturant/home.png"
                 alt="Moviez Project Screenshot 1"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m1.jpeg')}
+                onClick={() => handleImageClick('src/images/resturant/home.png')}
               />
               <img
-                src="/src/images/resturant/about.png"
+                src="src/images/resturant/about.png"
                 alt="Moviez Project Screenshot 2"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m2.jpeg')}
+                onClick={() => handleImageClick('src/images/resturant/about.png')}
               />
               <img
-                src="/src/images/resturant/popular.png"
+                src="src/images/resturant/popular.png"
                 alt="Moviez Project Screenshot 3"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m3.jpeg')}
+                onClick={() => handleImageClick('src/images/resturant/popular.png')}
               />
               <img
-                src="/src/images/resturant/order.png"
+                src="src/images/resturant/order.png"
                 alt="Moviez Project Screenshot 4"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('/src/images/movie/m4.jpeg')}
+                onClick={() => handleImageClick('src/images/resturant/order.png')}
               />
               {isModalOpen && (
                 <ImageModal
