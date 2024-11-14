@@ -1,0 +1,44 @@
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+}
+
+.image-modal-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+ 
+}
+
+.sp {
+  color: red;
+  font-weight: 100;
+}
+.image-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+    border: 2px solid black;
+  color: red;
+  background: rgba(18, 17, 17, 0.7);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 5px;
+}

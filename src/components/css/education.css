@@ -1,0 +1,10 @@
+.edu-cont {
+  transition: transform 0.3s ease-in-out;
+}
+.edu-cont:hover {
+  transform: translate3d(1px, -10px, 30px);
+  border-color: black;
+}
+.main-cont {
+  padding: 10px;
+}

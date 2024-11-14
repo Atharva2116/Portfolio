@@ -1,0 +1,8 @@
+.full-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.full-img:hover {
+  transform: translate3d(1px, -10px, 30px);
+  border-color: black;
+}
