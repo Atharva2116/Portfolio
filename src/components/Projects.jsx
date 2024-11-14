@@ -110,28 +110,28 @@ function Projects() {
             </p>
             <div className=" mt-6 grid grid-cols-2 gap-4">
               <img
-                src="src/images/resturant/home.png"
+                src="/resturant/home.png"
                 alt="Moviez Project Screenshot 1"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/resturant/home.png')}
+                onClick={() => handleImageClick('/resturant/home.png')}
               />
               <img
-                src="src/images/resturant/about.png"
+                src="/resturant/about.png"
                 alt="Moviez Project Screenshot 2"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/resturant/about.png')}
+                onClick={() => handleImageClick('/resturant/about.png')}
               />
               <img
-                src="src/images/resturant/popular.png"
+                src="/resturant/popular.png"
                 alt="Moviez Project Screenshot 3"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/resturant/popular.png')}
+                onClick={() => handleImageClick('/resturant/popular.png')}
               />
               <img
-                src="src/images/resturant/order.png"
+                src="/resturant/order.png"
                 alt="Moviez Project Screenshot 4"
                 className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-                onClick={() => handleImageClick('src/images/resturant/order.png')}
+                onClick={() => handleImageClick('/resturant/order.png')}
               />
               {isModalOpen && (
                 <ImageModal
