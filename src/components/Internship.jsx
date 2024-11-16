@@ -6,7 +6,7 @@ function Internship() {
       <div className="container mx-auto text-center ">
         <h2 className="text-4xl font-bold mb-6">Internship</h2>
         <div className='flex items-center justify-center '>
-          <div className="rounded-lg border  border-gray-300 p-4 shadow-md max-w-lg  bg-gray-100   hover:shadow-2xl">
+          <div className="rounded-lg border  m-6 border-gray-300 p-4 shadow-md max-w-lg  bg-gray-100   hover:shadow-2xl">
             <h3 className="text-2xl font-bold mb-2">Intern at GDB Learning Solutions</h3>
             <p className="font-semibold">Chatbot Development (February - April 2024)</p>
             <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
