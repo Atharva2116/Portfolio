@@ -18,7 +18,7 @@ function Contact() {
       const data = await response.json();
 
       if (data.success) {
-        setResult("Form Submitted Successfully");
+        setResult("Message Sent Successfully");
         e.target.reset(); // Reset the form fields after successful submission
       } else {
         console.log("Error", data);
@@ -26,7 +26,7 @@ function Contact() {
       }
     } catch (error) {
       console.log("Error", error);
-      setResult("There was an error submitting the form. Please try again.");
+      setResult("There was an error sending the message. Please try again.");
     }
   };
 
