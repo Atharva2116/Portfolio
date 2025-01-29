@@ -43,7 +43,7 @@ const AboutMe = () => {
                   Atharva Dandgawhal
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed text-center md:text-left">
-                  I am currently in my final year, pursuing a Bachelor's degree in Information Technology from Pune Institute of Computer Technology. With hands-on experience in Web Development, I specialize in both frontend and backend technologies. I am passionate about learning and implementing emerging technologies, and I love tackling challenges to create innovative solutions. I am dedicated to building responsive web applications and enhancing user experiences. In addition to my academic journey, I maintain a CGPA of 8.36, which reflects my commitment to both theoretical knowledge and practical development skills.
+                  I am currently in my final year, pursuing a Bachelor's degree in Information Technology from Pune Institute of Computer Technology. With hands-on experience in Web Development, I specialize in both frontend and backend technologies. I am passionate about learning and implementing emerging technologies, and I love tackling challenges to create innovative solutions. I am dedicated to building responsive web applications and enhancing user experiences. In addition to my academic journey, I maintain a CGPA of 8.56, which reflects my commitment to both theoretical knowledge and practical development skills.
                 </p>
 
                 {/* Animated Buttons */}
