@@ -43,7 +43,7 @@ const AboutMe = () => {
                   Atharva Dandgawhal
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed text-center md:text-left">
-                  I am currently in my final year, pursuing a Bachelor's degree in Information Technology from Pune Institute of Computer Technology. With hands-on experience in Web Development, I specialize in both frontend and backend technologies. I am passionate about learning and implementing emerging technologies, and I love tackling challenges to create innovative solutions. I am dedicated to building responsive web applications and enhancing user experiences. In addition to my academic journey, I maintain a CGPA of 8.56, which reflects my commitment to both theoretical knowledge and practical development skills.
+                  I am currently in my final year, pursuing a Bachelor's degree in Information Technology from Pune Institute of Computer Technology. With hands-on experience in Web Development, I specialize in both frontend and backend technologies. I am passionate about learning and implementing emerging technologies, and I love tackling challenges to create innovative solutions. I am dedicated to building responsive web applications and enhancing user experiences. In addition to my academic journey, I maintain a CGPA of 8.40, which reflects my commitment to both theoretical knowledge and practical development skills.
                 </p>
 
                 {/* Animated Buttons */}
@@ -53,7 +53,8 @@ const AboutMe = () => {
                     className="relative inline-flex items-center px-6 py-3 overflow-hidden rounded-full border-2 border-blue-500 text-blue-500 hover:text-white group"
                   >
                     <span className="absolute w-full h-0 transition-all duration-300 origin-center rotate-0 -translate-x-8 bg-blue-500 top-1/2 group-hover:h-64 group-hover:-translate-y-32"></span>
-                    <a className="relative" href="https://drive.google.com/file/d/1I_xffg-gPGjqtLT2ueD4k6HHw3n9GVxZ/view?usp=drive_link">Download CV </a>
+                    <a className="relative" href="https://drive.google.com/drive/folders/1wDM4ZU__yK1LtBqPXag89bJFbZFhBIwL?usp=sharing" target="_blank"
+                      rel="noopener noreferrer">Download CV </a>
                   </a>
                 </div>
               </div>
