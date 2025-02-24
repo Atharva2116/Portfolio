@@ -4,6 +4,7 @@ import "./css/projects.css";
 import ImageModal from './modal/ImageModal';
 
 
+
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
@@ -17,7 +18,7 @@ function Projects() {
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-6">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="cont bg-white p-6 rounded-lg shadow-lg m-3 ">
+          <div className="cont bg-white p-6 rounded-lg shadow-lg m-3 hover:shadow-2xl">
             <h3 className="text-2xl font-bold mb-4"><box-icon name='movie-play' type='solid' color='black' ></box-icon>Moviez - IMDb Website</h3>
             <p className="text-gray-700 font-light">
               Developed an interactive IMDb-inspired website enabling users to browse and view detailed movie information through a user-friendly interface for seamless browsing and selection. Integrated the OMDb API to fetch and display comprehensive movie details, enhancing the overall user experience with rich, real-time data on each film.
@@ -41,14 +42,18 @@ function Projects() {
               </span>
               {" PostgreSQL "}
             </p>
+            <br />
+            <h6 >
+              <i className="animate-pulse text-red-400">[Click on images to view]</i>
+            </h6>
             <div className="mt-6 grid grid-cols-2 gap-4">
-             <img
-               src="/movie/m1.jpeg"
-           
-              alt="Moviez Project Screenshot 1"
-              className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
-              onClick={() => handleImageClick('/movie/m1.jpeg')}
-               />
+              <img
+                src="/movie/m1.jpeg"
+
+                alt="Moviez Project Screenshot 1"
+                className="w-full h-auto rounded-lg shadow-md cursor-pointer full-img"
+                onClick={() => handleImageClick('/movie/m1.jpeg')}
+              />
 
               <img
                 src="/movie/m2.jpeg"
@@ -77,7 +82,7 @@ function Projects() {
               )}
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg m-3 ">
+          <div className="bg-white p-6 rounded-lg shadow-lg m-3 hover:shadow-2xl">
             <h3 className="text-2xl font-bold mb-4"><box-icon name='restaurant' flip='horizontal' color='#252222' ></box-icon>DineEase - Restaurant</h3>
 
             <p className="text-gray-700 font-light">
@@ -107,7 +112,12 @@ function Projects() {
                 {/* MongoDB icon */}
               </span>
               {" MongoDB "}
+              
             </p>
+            <br />
+            <h6 >
+              <i className="animate-pulse  text-red-400">[Click on images to view]</i>
+            </h6>
             <div className=" mt-6 grid grid-cols-2 gap-4">
               <img
                 src="/resturant/home.png"
