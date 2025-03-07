@@ -1,23 +1,18 @@
-/* .hero-background {
+.hero-background {
   background-image: url("../../images/bg.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* This ensures the section takes full screen height */
-} */
-.conte{
-    color: whitesmoke;
-    filter: drop-shadow(0 0 0.75rem #0aefdc);
 }
-.hero-background {
-  background-color: #1a1a1a; /* Example background color */
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.conte {
+  color: whitesmoke;
+  filter: drop-shadow(0 0 0.75rem #0aefdc);
 }
 
 .cursor {
   animation: blink 1s infinite;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8)) drop-shadow(0 0 10px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 15px rgba(255, 255, 255, 0.4));
 }
 
 @keyframes blink {
