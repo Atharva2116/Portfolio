@@ -12,7 +12,7 @@ function Education() {
             <p className="text-gray-700">
               Pune Institute Of Computer Technology, Pune
             </p>
-            <p><b>CGPA: 8.36 </b> ,(2021-2025)  </p>
+            <p><b>CGPA: 8.40 </b> ,(2021-2025)  </p>
           </div>
           <div className="edu-cont bg-gray-100 py-12 rounded-2xl hover:shadow-2xl">
           <i class="fa-solid fa-school fa-2xl"></i>
