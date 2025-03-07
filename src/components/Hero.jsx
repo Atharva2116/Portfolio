@@ -7,7 +7,7 @@ function Hero() {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const skills = ["Web Developer", "Data Science Enthusiast"];
+  const skills = ["Web Developer", "C++"," Machine Learning" , "Data Science Enthusiast"];
   const introText = "Hi, I'm Atharva Dandgawhal";
 
   useEffect(() => {
