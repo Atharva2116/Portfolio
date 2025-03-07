@@ -1,10 +1,31 @@
-.hero-background {
+/* .hero-background {
   background-image: url("../../images/bg.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* This ensures the section takes full screen height */
-}
+} */
 .conte{
     color: whitesmoke;
     filter: drop-shadow(0 0 0.75rem #0aefdc);
+}
+.hero-background {
+  background-color: #1a1a1a; /* Example background color */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
